@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&family=Roboto:wght@400;700&display=swap');
+
+/*RESET*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    align-items: center;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    gap: 25px;
+    justify-content: center;
+    line-height: 1.5;
+    margin-top: 50px;
+
+}
+.foto-perfil {
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}
+.nome {
+    color: #64818C;
+    font-weight: bold;
+}
+.ocupacao {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+}
+.social {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    width: 200px;
+}
+.info {
+    width: 400px;
+}
+.info a {
+    color: #000000;
+    text-decoration: none;
+}
+.social__icon {
+    width: 35px;
+}
+.texto {
+    font-family: "Open Sans";
+    font-style: italic;
+    padding: 1rem;
+}
